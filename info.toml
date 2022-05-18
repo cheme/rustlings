@@ -677,6 +677,16 @@ Try mutating the incoming string vector.
 Vectors provide suitable methods for adding an element at the end. See
 the documentation at: https://doc.rust-lang.org/std/vec/struct.Vec.html"""
 
+[[exercises]]
+name = "traits3"
+path = "exercises/traits/traits3.rs"
+mode = "test"
+hint = """
+Notice the `dyn` usage in the tests. Please feel free to remove
+things that are not compatible.
+
+The documentation at: https://doc.rust-lang.org/book/ch17-02-trait-objects.html"""
+
 # TESTS
 
 [[exercises]]
